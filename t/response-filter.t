@@ -1,5 +1,5 @@
 use strictures 1;
-use Test::More;  
+use Test::More 0.88;
 use Plack::Test;
 use HTTP::Request::Common qw(GET POST);
 

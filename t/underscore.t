@@ -1,5 +1,5 @@
 use Web::Simple 'TestApp';
-use Test::More;
+use Test::More 0.88;
 
 sub TestApp::dispatch_request {
   sub (GET + ?*) {

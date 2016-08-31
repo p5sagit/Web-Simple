@@ -1,5 +1,5 @@
 use strictures;
-use Test::More;
+use Test::More 0.88;
 
 plan skip_all => 'No Devel::Cycle' unless eval { require Devel::Cycle; 1 };
 

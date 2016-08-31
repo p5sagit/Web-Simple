@@ -1,6 +1,6 @@
 use strictures;
 
-use Test::More;
+use Test::More 0.88;
 use Web::Simple::Application;
 use Socket;
 

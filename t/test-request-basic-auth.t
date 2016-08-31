@@ -1,5 +1,5 @@
 use strictures 1;
-use Test::More;
+use Test::More 0.88;
 
 my $auth_result;
 my @auth_args;

@@ -2,7 +2,7 @@ use strict;
 use warnings FATAL => 'all';
 no warnings::illegalproto;
 
-use Test::More;
+use Test::More 0.88;
 
 use HTTP::Request::Common qw(GET POST);
 use Web::Dispatch;
