@@ -324,11 +324,10 @@ for use via L<Plack> and L<plackup>. If you want to globally add middleware,
 you can override this method:
 
   use Web::Simple 'HelloWorld';
-  use Plack::Builder;
  
   {
     package HelloWorld;
-
+    use Plack::Builder;
   
     around 'to_psgi_app', sub {
       my ($orig, $self) = (shift, shift);
