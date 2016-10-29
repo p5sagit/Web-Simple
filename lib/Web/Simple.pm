@@ -571,7 +571,7 @@ the 'coffee' parameter.
 
 Note, in the case where you combine arrayref, single parameter and named
 hashref style, the arrayref and single parameters will appear in C<@_> in the
-order you defined them in the protoype, but all hashrefs will merge into a
+order you defined them in the prototype, but all hashrefs will merge into a
 single C<$params>, as in the example above.
 
 =head3 Upload matches
@@ -606,7 +606,7 @@ Matches may be combined with the + character - e.g.
 
   'GET + /user/*' => sub {
 
-to create an AND match. They may also be combined withe the | character - e.g.
+to create an AND match. They may also be combined with the | character - e.g.
 
   'GET|POST' => sub {
 
