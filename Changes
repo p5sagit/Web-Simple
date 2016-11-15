@@ -1,5 +1,6 @@
 Revision history for Web-Simple
 
+0.032 - 2016-11-15
   - add HTTP::Body dep
   - fix Test::More dep
   - documention fixes
