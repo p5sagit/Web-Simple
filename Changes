@@ -1,6 +1,8 @@
 Revision history for Web-Simple
 
   - add HTTP::Body dep
+  - fix Test::More dep
+  - documention fixes
 
 0.031 - 2015-08-14
   - rewrite docs to use string form first
