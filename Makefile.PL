@@ -39,6 +39,7 @@ my %WriteMakefileArgs = (
           'Exporter' => '5.57',         # use Exporter 'import'
           'Moo' => '0.009014',
           'Plack' => '0.9968',
+          'HTTP::Body' => '1.22',
           'Scalar::Util' => '0',        # not core in 5.6
           'Syntax::Keyword::Gather' => '1.001',
           'strictures' => '1',

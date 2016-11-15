@@ -1,5 +1,7 @@
 Revision history for Web-Simple
 
+  - add HTTP::Body dep
+
 0.031 - 2015-08-14
   - rewrite docs to use string form first
   - handle empty query parameters
