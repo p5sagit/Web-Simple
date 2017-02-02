@@ -73,7 +73,7 @@ sub _export_tags_into {
       no strict 'refs';
       delete ${"${into}::"}{$tag}
     }
-    _set_glob(\&File::Glob::glob);
+    _set_glob(\&File::Glob::csh_glob);
     overload::remove_constant('q');
     $IN_SCOPE = 0;
   };

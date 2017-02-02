@@ -1,6 +1,8 @@
 use strict; use warnings FATAL => 'all';
 use Test::More qw(no_plan);
 
+my $globbery;
+BEGIN { $globbery = join(', ', <t/globbery/o* t/globbery/t*>) }
 {
 
   package Foo;
@@ -60,7 +62,7 @@ use Test::More qw(no_plan);
   }
 
   sub globbery {
-    <t/globbery/*>;
+    <t/globbery/o* t/globbery/t*>;
   }
 }
 
@@ -123,6 +125,6 @@ is(
 
 is(
   join(', ', Foo::globbery),
-  't/globbery/one, t/globbery/two',
+  $globbery,
   'real glob re-installed ok'
 );
