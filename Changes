@@ -1,5 +1,9 @@
 Revision history for Web-Simple
 
+  [Security]
+  - A urlencoded body is read in chunks (CVE-2026-114629)
+  - The request body now has a configurable MAX_BODY_SIZE (defaults to 8 MiB)
+
 0.034 - 2026-10-21
   - migrate repository to github
 
